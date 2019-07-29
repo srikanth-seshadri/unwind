@@ -21,7 +21,7 @@ unWind! is predominantly deployed on Ubuntu. For installing on other OSes,
 please refer unWind! Administrator's guide.
 
 Prerequisites:
-- pip, virtualenv, unpack, libarchive, libpq-dev, python-dev
+- pip, virtualenv, unpack
 
 To install the pre-requisites, run the following commands:
 
@@ -34,10 +34,6 @@ pip install virtualenv
 sudo apt-get update
 
 sudo apt-get install unzip
-
-sudo apt-get install libarchive-dev
-
-sudo apt-get install libpq-dev python-dev
 
 To Install UnWind! from tgz file, use the command below. This installs UnWind!
 in 'unwind_pkg' directory in the current working directory.  If you want to
